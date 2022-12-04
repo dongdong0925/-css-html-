@@ -1,0 +1,129 @@
+.xtx-body{
+    background-color: #f6f6f6;
+}
+.xtx-body .wrapper{
+    display: flex;
+}
+.wrapper .aside{
+    width: 227px;
+    min-height: 500px;
+    margin-right: 18px;
+    background-color: pink; 
+}
+.wrapper .main{
+    flex: 1;
+    min-height: 500px;
+
+}
+.overview{
+    display: flex;
+    height: 132px;
+    margin-bottom: 18px;
+    padding: 20px 0;
+    background-color: #fff;
+
+}
+.overview div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+
+}
+.overview div:first-child{
+    border-right: 1px solid #f4f4f4;
+}
+.overview div a img{
+    width: 25px;
+    margin-bottom: 10px;
+}
+.overview div span{
+    font-size: 25px;
+    color: #e05e30;
+}
+.overview div p{
+    font-size: 16px;
+}
+.pannel{
+    padding: 28px 20px;
+    margin-bottom: 20px;
+    background-color: #fff;   
+}
+.pannel .pannel-title{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.pannel .pannel-title h4{
+    font-size: 22px;
+    color: #333;
+    font-weight: 400;
+}
+.pannel .pannel-title a{
+    margin-top: 8px;
+    font-size: 16px;
+    color: #999;
+}
+.orders li{
+    display: flex;
+    height: 137px;
+    margin-top: -1px;
+    margin-bottom: 20px;
+    border: 1px solid #f4f4f4;
+}
+.orders li:last-child{
+    margin-bottom: 0;
+}
+.orders li .goods{
+    display: flex;
+    align-items: center;
+    padding: 17px 0 14px 12px;
+    flex: 1;
+    margin-right: 120px;
+}
+.orders .goods .pic {
+    width: 107px;
+    height: 107px;
+}
+.orders .goods .pic img{
+    width: 107px;
+    height: 107px;
+}
+.orders .goods .txt{
+    flex: 1;
+    width: 0;
+}
+.orders .goods .txt h5,.orders .goods .txt p{
+   text-overflow: ellipsis;
+    white-space: nowrap;
+    //overflow: hidden;
+}
+.orders li .status{
+    width: 120px;
+    color: red;
+}
+.orders li .pay{
+    width: 200px;
+    margin-left: 1px solid #e8e8e8;
+    margin-right: 1px solid #e8e8e8;
+}
+.orders li .action{
+    width: 180px;
+}
+.orders li .common{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.orders li .action a:first-child{
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #5eb69c;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
